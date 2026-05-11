@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>03ea6381-44e3-4099-98c9-4aa3cbfae05e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Logica\VariablesTiposBasicos.py</StartupFile>
+    <StartupFile>Logica\calcularEdad.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Logica\calcularEdad.py" />
     <Compile Include="Logica\VariablesTiposBasicos.py" />
     <Compile Include="Recursividad\SumatorialRecursivo.py" />
   </ItemGroup>
