@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>03ea6381-44e3-4099-98c9-4aa3cbfae05e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Logica\FactorialRecursivo.py</StartupFile>
+    <StartupFile>Logica\VariablesTiposBasicos.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,11 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Logica\FactorialRecursivo.py" />
+    <Compile Include="Logica\VariablesTiposBasicos.py" />
+    <Compile Include="Recursividad\SumatorialRecursivo.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Matematicas\" />
     <Folder Include="Logica\" />
+    <Folder Include="Hilos\" />
+    <Folder Include="POO\" />
+    <Folder Include="Recursividad\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
